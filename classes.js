@@ -1,7 +1,9 @@
 //criacao da clase
 
 class formaDeBolo {
-    constructor(){
-        
+    constructor(saborDaMassa, saborRecheio){
+//propiedades this
+this.saborDaMassa = saborDaMassa
+this.saborRecheio = saborRecheio
     }
 }
