@@ -8,12 +8,18 @@ class formaDeBolo {
 this.saborDaMassa = saborDaMassa
 this.saborRecheio = saborRecheio
     }
+
+    //criando um metodo o mesmo que funcion mas nao e precisso escrever a paavra function
+    escrever(){
+        //messangem usando interpolacao de string 
+        console.log(`Um delicioso bolo de ${this.saborDaMassa} com recheio de ${this.saborRecheio}`)
+    }
 }
 //OBJETO
 //aqui representa a criacao do sabor de um primer bolo onde se describira o sabor da massa e sabor do recheio
 //instancia
 let boloFesta = new formaDeBolo ("massa de chocolate", "recheio de nutella")
 
-//exemplo se quizer trazer so uma propriedade
-console.log(boloFesta.saborDaMassa)
 
+//chamado do metoto para mostrar menssagem
+boloFesta.escrever
