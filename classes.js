@@ -25,11 +25,11 @@ this.saborRecheio = saborRecheio
 //instancia
 let boloFesta = new formaDeBolo ("massa de chocolate", "recheio de nutella")
 //creando otro sabor de bolo
-let boloPremium = new formaDeBolo("baunilha , coco")
+let boloPremium = new formaDeBolo("baunilha" , "coco")
 
 //chamado do metoto para mostrar menssagem
 boloFesta.escrever()
 //chamado de otro metodo exemplo otro sabor de bolo
-
+boloPremium.escrever()
 //chamado do metodo assar
 boloFesta.assar()
