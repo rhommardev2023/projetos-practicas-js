@@ -14,5 +14,6 @@ this.saborRecheio = saborRecheio
 //instancia
 let boloFesta = new formaDeBolo ("massa de chocolate", "recheio de nutella")
 
-console.log(boloFesta)
+//exemplo se quizer trazer so uma propriedade
+console.log(boloFesta.saborDaMassa)
 
