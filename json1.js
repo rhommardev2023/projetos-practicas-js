@@ -11,5 +11,14 @@ let invoice = {
     }
 }
 
-//chamando uma variavel do  JSON
-console.log(invoice.name)
+
+// se chama a funcao usando o json criado
+generateInvoice(invoice);
+
+function generateInvoice(invoice) {
+    console.log("O comprador é "+ name);
+    console.log(`A idade é ${age}`);
+    console.log("---------------------");
+    console.log("O produto é "+ products[0]);
+    console.log("O valor do produto é "+ productsvalues[0]);
+}
