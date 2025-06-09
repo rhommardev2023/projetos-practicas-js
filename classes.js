@@ -24,9 +24,12 @@ this.saborRecheio = saborRecheio
 //aqui representa a criacao do sabor de um primer bolo onde se describira o sabor da massa e sabor do recheio
 //instancia
 let boloFesta = new formaDeBolo ("massa de chocolate", "recheio de nutella")
-
+//creando otro sabor de bolo
+let boloPremium = new formaDeBolo("baunilha , coco")
 
 //chamado do metoto para mostrar menssagem
 boloFesta.escrever()
+//chamado de otro metodo exemplo otro sabor de bolo
+
 //chamado do metodo assar
 boloFesta.assar()
