@@ -13,12 +13,17 @@ let invoice = {
 
 
 // se chama a funcao usando o json criado
-generateInvoice(invoice);
+generateInvoice(invoice)
 
-function generateInvoice(invoice) {
-    console.log("O comprador é "+ name);
-    console.log(`A idade é ${age}`);
-    console.log("---------------------");
-    console.log("O produto é "+ products[0]);
-    console.log("O valor do produto é "+ productsvalues[0]);
+function generateInvoice(invoice){
+	console.log(`O comprador é ${invoice.name}`)
+    console.log(`A idade é ${invoice.age}`)
+    console.log("------------")
+    
+    for(let index in invoice.products){
+    	let [productName, productPrice] = invoice.products[index]
+        console.log(`- ${productName}: R$ ${productPrice}`)
+    }
+    
+    
 }
