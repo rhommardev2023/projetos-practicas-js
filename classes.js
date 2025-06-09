@@ -14,6 +14,11 @@ this.saborRecheio = saborRecheio
         //messangem usando interpolacao de string 
         console.log(`Um delicioso bolo de ${this.saborDaMassa} com recheio de ${this.saborRecheio}`)
     }
+    //  mais otro metodo mensagem 
+    assar(){ 
+        console.log("bolo assado de " + this.saborDaMassa)
+
+    }
 }
 //OBJETO
 //aqui representa a criacao do sabor de um primer bolo onde se describira o sabor da massa e sabor do recheio
@@ -23,3 +28,5 @@ let boloFesta = new formaDeBolo ("massa de chocolate", "recheio de nutella")
 
 //chamado do metoto para mostrar menssagem
 boloFesta.escrever()
+//chamado do metodo assar
+boloFesta.assar()
