@@ -22,4 +22,4 @@ let boloFesta = new formaDeBolo ("massa de chocolate", "recheio de nutella")
 
 
 //chamado do metoto para mostrar menssagem
-boloFesta.escrever
+boloFesta.escrever()
