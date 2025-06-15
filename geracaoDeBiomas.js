@@ -1,6 +1,6 @@
 // Lê a quantidade de golpes informada pelo usuário. 
 // O parseInt(()) vai converter os valores de entrada(string) para um valor numérico(Int).
-const quantidadeGolpes = 3;//parseInt(gets());
+const quantidadeGolpes = 4;//parseInt(gets());
 
 // TODO: Defina aqui os tipos de minerais Carvao, Ferro, Diamante e Pedra
 let minerais = ["  Carvao ", "Ferro ", "  Diamante ", "  Pedra "];
