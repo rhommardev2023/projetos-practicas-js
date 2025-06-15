@@ -3,7 +3,7 @@
 const quantidadeGolpes = 4;//parseInt(gets());
 
 // TODO: Defina aqui os tipos de minerais Carvao, Ferro, Diamante e Pedra
-let minerais = ["  Carvao ", "Ferro ", "  Diamante ", "  Pedra "];
+let minerais = ["  Carvao ", " Ferro ", "  Diamante ", "  Pedra "];
 
 // Loop para cada golpe, de 1 até a quantidade informada
 for (let i = 1; i <= quantidadeGolpes; i++) {
