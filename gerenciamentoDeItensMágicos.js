@@ -19,10 +19,10 @@ const resistenciaItem = parseInt(gets());
 //TODO: Crie o de um objeto ItemMagico personalizado com base no tipo escolhido
 
 // TODO: Imprima os atributos do item personalizado
-print("Tipo: " + );
-print("Dano: " + );
-print("Resistencia: " + itemPersonalizado.resistencia);
+console.log("Tipo: " + );
+console.log("Dano: " + );
+console.log("Resistencia: " + itemPersonalizado.resistencia);
 
 // Calcula e imprime o dano causado pelo item personalizado em um combate simulado
 const danoTotal = itemPersonalizado.calcularDano();
-print("Dano em combate: " + danoTotal);
+console.log("Dano em combate: " + danoTotal);
