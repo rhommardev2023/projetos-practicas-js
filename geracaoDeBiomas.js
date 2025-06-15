@@ -1,6 +1,6 @@
 // Lê a quantidade de golpes informada pelo usuário. 
 // O parseInt(()) vai converter os valores de entrada(string) para um valor numérico(Int).
-const quantidadeGolpes = parseInt(gets());
+const quantidadeGolpes = 3;//parseInt(gets());
 
 // TODO: Defina aqui os tipos de minerais Carvao, Ferro, Diamante e Pedra
 let minerais = ["  Carvao ", "Ferro ", "  Diamante ", "  Pedra "];
@@ -11,5 +11,5 @@ for (let i = 1; i <= quantidadeGolpes; i++) {
   let minaIndex = i % minerais.length;
   
   // TODO: Agora exiba o índice i, concatene com o caractere ":", após, concatene com tipo de minerais[minaIndex]:
-  print(  i + ":" + minerais[0]  );
+  console.log(  i + ":" + minerais[minaIndex]  );
 }
